@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Caesar Encrypt",
+      "setup": "",
+      "run": "./gradlew clean test --tests CaesarTest.testEncryptCaesar",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Decrypt Caesar",
+      "setup": "",
+      "run": "./gradlew clean test --tests CaesarTest.testDecryptCaesar",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Caesar Key Encrypt",
+      "setup": "",
+      "run": "./gradlew clean test --tests CaesarKeyTest.testEncryptCaesarKey",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Caesar Key Decrypt",
+      "setup": "",
+      "run": "./gradlew clean test --tests CaesarKeyTest.testDecryptCaesarKey",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Vigenere Encrypt",
+      "setup": "",
+      "run": "./gradlew clean test --tests VigenereTest.testEncryptVigenere",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Vigenere Decrypt",
+      "setup": "",
+      "run": "./gradlew clean test --tests VigenereTest.testDecryptVigenere",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
